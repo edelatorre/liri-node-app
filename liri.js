@@ -4,7 +4,7 @@ let dataKeys = require("./keys.js");
 
 let Spotify = require('node-spotify-api');
 
-let space = "\n" + "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0";
+let space = "\n" 
 
 function getMeSpotify(songName) {
     let spotify = new Spotify(dataKeys.spotify);
